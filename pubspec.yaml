@@ -1,0 +1,46 @@
+name: iasc
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # https://pub.dev/packages/get
+  get: ^4.6.6
+  # https://pub.dev/packages/get_storage
+  get_storage: ^2.1.1
+  # https://pub.dev/packages/tdesign_flutter
+  tdesign_flutter: ^0.1.5
+  # https://pub.dev/packages/path_provider
+  path_provider: ^2.1.3
+  # https://pub.dev/packages/device_info_plus
+  device_info_plus: ^10.1.0
+  # https://pub.dev/packages/package_info_plus
+  package_info_plus: ^8.0.0
+  # https://pub.dev/packages/smart_usb
+  smart_usb: ^0.4.2
+  # https://pub.dev/packages/desktop_drop
+  desktop_drop: ^0.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
