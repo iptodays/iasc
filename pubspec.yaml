@@ -28,6 +28,8 @@ dependencies:
   smart_usb: ^0.4.2
   # https://pub.dev/packages/desktop_drop
   desktop_drop: ^0.4.4
+  # https://pub.dev/packages/window_manager
+  window_manager: ^0.3.9
 
 dev_dependencies:
   flutter_test:

@@ -4,7 +4,9 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   desktop_drop
+  screen_retriever
   smart_usb
+  window_manager
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
